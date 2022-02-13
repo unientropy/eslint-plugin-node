@@ -27,7 +27,7 @@ jobs:
       #   env:
       #     NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Install
-        run: npm ci
+        run: npm i
       - name: Publish
         run: npm publish --access public
         env:
